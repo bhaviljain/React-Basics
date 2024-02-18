@@ -1,0 +1,60 @@
+body{
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  overflow: hidden;
+  text-align: center;
+  
+}
+.step-main{
+  display: flex;
+ gap: 15vw;
+ margin-left: 4vw;
+ justify-content: space-between;
+ align-items: center;
+ position: relative;
+ margin-bottom: 50px;
+}
+.step{
+  display: flex;
+  /* position: relative; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-number{
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 30px;
+  background-color: gray;
+  padding: 7px 13px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.active .step-number {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.complete .step-number {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.progess-bar {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 5px;
+  margin-left: 9vw;
+  
+  top: 37%;
+  
+}
+.progess {
+  
+  height: 100%;
+  background-color: green;
+  transition: 0.2 ease;
+}

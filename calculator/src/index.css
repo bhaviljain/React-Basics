@@ -1,0 +1,33 @@
+body{
+  background-color: #1a1a1a;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.main{
+  max-width: 350px;
+}
+button{
+  width: 70px;
+  height: 60px;
+}
+.input-box{
+  width: 97%;
+  height: 25px;
+  margin-bottom: 4px;
+}
+button:hover {
+  border-color: #646cff;
+  font-size: 26px;
+}
+.button-items{
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  gap: 5px;
+}
+.equal{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  width: 100%;
+}
+

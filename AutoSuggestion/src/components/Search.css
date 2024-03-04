@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    gap: 20px;
+}
+.search-items ul{
+    border-top: 2px black solid;;
+    padding: 10px;
+}
+.search-items ul li{
+  list-style: none;
+  padding: 10px;
+  text-align: start;
+}
+.search-items ul li:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.search{
+    cursor: pointer;
+}
+.search:hover{
+    background-color: black;
+    padding: 3px;
+}

@@ -18,7 +18,7 @@ function App() {
   };
   return (
    <>
-   <div className='w-[50%] m-auto mt-[30%]'>
+   <div className='w-[50%] m-auto'>
    <Slider {...settings}>
  
       <div>

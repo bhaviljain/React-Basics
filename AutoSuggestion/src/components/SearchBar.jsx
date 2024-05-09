@@ -20,6 +20,7 @@ setSearchData(FilteredData)
 }
 else{
   setSearchData([])
+  
 
 }
 }

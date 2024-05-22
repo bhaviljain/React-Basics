@@ -55,14 +55,14 @@ useEffect(()=>{
  <td id='years'>{obj.Population}</td>
  <span id='btn' onClick={()=>DeleteBtn(obj.index)}> X
  </span>
- 
+
   </table>
 
+  
 
-
-  )
+)
 })}
-      
+    
   </div>
     </>
   )
